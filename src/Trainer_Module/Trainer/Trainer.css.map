@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,EAAE,CAAA;EAEE,SAAS,EAAE,IAAI;EACf,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,IAAI;EACjB,KAAK,EAAE,qBAAqB;CAC/B;;AACD,AAAA,EAAE,CAAC;EACC,WAAW,EAAE,oBAAoB;EACjC,SAAS,EAAE,IAAI;EACf,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,IAAI;EACjB,KAAK,EAAE,qBAAqB;EAC5B,aAAa,EAAE,CAAC;CACnB",
+    "sources": [
+        "Trainer.scss"
+    ],
+    "names": [],
+    "file": "Trainer.css"
+}

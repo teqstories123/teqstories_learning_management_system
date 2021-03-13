@@ -1,0 +1,105 @@
+.loginContainer {
+    padding: 85px 120px;
+    background-color: #fafafa8c;
+    .cardContent {
+        width: 100%;
+    }
+    .cardContainer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        div {
+
+            &.leftPane,
+            &.rightPane {
+                width: calc(100% / 2);
+                padding: 40px;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        .rightPane {
+            h2 {
+                margin-bottom: 40px;
+            }
+            form {
+                .form-control {
+                    display: flex;
+                    border-bottom: 1px solid #eee;
+                    margin-bottom: 20px;
+                    padding-bottom: 8px;
+                    width: 60%;
+
+                    &:last-child {
+                        border-bottom: 0 !important;
+                    }
+                    input {
+                        border: none;
+                        margin-left: 16px;
+                        width: 100%;
+                        outline: none;
+
+                    }
+
+                }
+                .loginDetails {
+                    width: 60%;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and(max-width: 768px) {
+    .loginContainer {
+        padding: 20px;
+        background-color: #fafafa8c;
+        .cardContent {
+            padding: 0;
+            width: 100%;
+        }
+        .cardContainer {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .leftPane {
+                display: none;
+            }
+            .rightPane {
+                width: 100% !important;
+                padding: 22px !important;
+                padding-bottom: 0 !important;
+                h2 {
+                    margin-bottom: 40px;
+                }
+                form {
+                    .form-control {
+                        display: flex;
+                        border-bottom: 1px solid #eee;
+                        margin-bottom: 20px;
+                        padding-bottom: 8px;
+                        width: 100%;
+    
+                        &:last-child {
+                            border-bottom: 0 !important;
+                        }
+    
+                        input {
+                            border: none;
+                            margin-left: 16px;
+                            width: 100%;
+                            outline: none;
+                        }
+                    }
+                    .loginDetails {
+                        width: 60%;
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+        }
+    }
+}

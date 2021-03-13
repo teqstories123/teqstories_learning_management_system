@@ -1,0 +1,36 @@
+.session-sideNav {
+  box-shadow: 0 4px 9px 0 rgba(74, 144, 226, 0.58);
+  background-color: #2672cb;
+  height: 100vh;
+  text-align: center;
+  padding: 0;
+}
+.session-sideNav div {
+  margin-top: 20px;
+}
+.session-sideNav div ul {
+  list-style: none;
+}
+.session-sideNav div ul li {
+  padding: 6px 0;
+}
+.session-sideNav div ul li p {
+  margin-bottom: 0;
+  color: #ffffff;
+}
+.session-sideNav div ul li:hover {
+  background-color: #0077b5;
+  border: 1px solid #ffffff;
+  border-left: none;
+  border-right: none;
+}
+.session-sideNav div ul li button {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  outline: none;
+}
+
+.session-list-header {
+  cursor: pointer;
+}

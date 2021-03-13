@@ -1,0 +1,26 @@
+h3 {
+  font-size: 22px;
+}
+
+.batch-list-container {
+  border-radius: 4px;
+  border: solid 1px #d0d6e2;
+  background-color: #f9fbff;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.batch-list-container h3 {
+  font-family: "Sansita Swashed", cursive;
+}
+.batch-list-container a {
+  font-size: 14px;
+  font-weight: 800;
+  color: #2672cb;
+}
+.batch-list-container a:first-child {
+  margin-right: 10px;
+}
+
+#trainer-batch-list {
+  padding: 20px 50px;
+}

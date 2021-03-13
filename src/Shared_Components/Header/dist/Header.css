@@ -1,0 +1,23 @@
+.header-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subscriptionContainer {
+  display: flex;
+}
+
+.c1-batch-list-details .c1-batch-list {
+  width: 48%;
+}
+.c1-batch-list-details .c1-batch-list iframe {
+  border-radius: 4px;
+}
+
+.header .Logo {
+  margin-top: 22px;
+}
+
+#main-container {
+  padding: 100px 50px !important;
+}

@@ -1,0 +1,23 @@
+.header-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.subscriptionContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1-batch-list-details .c1-batch-list {
+  width: 48%;
+}
+
+.c1-batch-list-details .c1-batch-list iframe {
+  border-radius: 4px;
+}
+/*# sourceMappingURL=Header.css.map */

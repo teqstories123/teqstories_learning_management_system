@@ -1,0 +1,39 @@
+.session-sideNav {
+    box-shadow: 0 4px 9px 0 rgba(74, 144, 226, 0.58);
+    background-color: #2672cb;
+    height: 100vh;
+    text-align: center;
+    padding: 0;
+
+    div {
+        margin-top: 20px;
+
+        ul {
+            list-style: none;
+
+            li {
+                padding: 6px 0;
+                p{
+                    margin-bottom: 0;
+                    color: #ffffff; 
+                }
+                &:hover {
+                    background-color: #0077b5;
+                    border: 1px solid #ffffff;
+                    border-left: none;
+                    border-right: none;
+                }
+                button {
+                    background-color: transparent;
+                    border: none;
+                    color: #ffffff;
+                    outline: none;
+                }
+            }
+        }
+    }
+}
+
+.session-list-header{
+    cursor: pointer;
+}
